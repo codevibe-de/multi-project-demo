@@ -1,5 +1,6 @@
 package de.codevibe;
 
+// hier müsste mal was gemacht werden
 public class NoRecord {
 }
 

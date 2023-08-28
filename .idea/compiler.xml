@@ -7,8 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="simple-maven" />
-        <module name="multi-module-maven_module1" />
-        <module name="multi-module-maven_module2" />
+        <module name="app" />
+        <module name="core" />
       </profile>
     </annotationProcessing>
   </component>

@@ -10,6 +10,13 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>multi-module-maven_module2</artifactId>
+    <artifactId>app</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>de.codevibe</groupId>
+            <artifactId>core</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>
