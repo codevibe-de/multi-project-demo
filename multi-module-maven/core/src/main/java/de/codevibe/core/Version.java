@@ -14,6 +14,11 @@ public class Version {
 
     @Override
     public String toString() {
+        // do some nice formatting
         return String.format("v%d.%d.%d", major, minor, patch);
+    }
+
+    Version of(int major, int minor, int patch) {
+        return new Version(major, minor, patch);
     }
 }

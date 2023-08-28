@@ -1,0 +1,25 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="193664ea-012f-3b53-91e6-4b44d97709a5" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CustomRegExpInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myConfigurations">
+        <list>
+          <RegExpInspectionConfiguration>
+            <option name="name" value="Using keyword &quot;foo&quot;" />
+            <option name="uuid" value="193664ea-012f-3b53-91e6-4b44d97709a5" />
+            <option name="patterns">
+              <list>
+                <InspectionPattern>
+                  <option name="regExp" value="foo" />
+                  <option name="_fileType" value="JAVA" />
+                  <option name="searchContext" value="ANY" />
+                </InspectionPattern>
+              </list>
+            </option>
+          </RegExpInspectionConfiguration>
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

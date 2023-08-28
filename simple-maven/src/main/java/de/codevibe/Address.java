@@ -1,5 +1,19 @@
+/*
+ * Copyrighted, bro!
+ */
+
 package de.codevibe;
 
-@SuppressWarnings("unused")
 public class Address {
+
+    private String city;
+
+    public Address(String city) {
+        this.city = city;
+    }
+
+    public String city() {
+        return city;
+    }
+
 }
